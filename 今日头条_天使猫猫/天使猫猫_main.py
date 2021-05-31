@@ -17,7 +17,7 @@ client = pymongo.MongoClient(MONGO_URL,connect=False)
 db = client[MONGO_DB]
 
 
-#修改标记
+#修改标记_1
 def get_page(page_num):
     args = {
         'keyword': KEY_WORD,
