@@ -16,7 +16,7 @@ import os
 client = pymongo.MongoClient(MONGO_URL,connect=False)
 db = client[MONGO_DB]
 
-
+#标记一下
 def get_page(page_num):
     args = {
         'keyword': KEY_WORD,
