@@ -12,7 +12,7 @@ from pyquery import PyQuery as pq
 from config import *
 from multiprocessing import Pool
 import os
-
+#修改
 client = pymongo.MongoClient(MONGO_URL,connect=False)
 db = client[MONGO_DB]
 
